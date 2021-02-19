@@ -19,14 +19,15 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
-                  margin: EdgeInsets.all(35),
+                  margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
                   child: Text("BERITA TERBARU", 
                   style: TextStyle(color: Colors.black)),
                 ),
                 Container(
-                  margin: EdgeInsets.all(35),
+                  //margin: EdgeInsets.all(35),
                   child: Text("PERTANDINGAN HARI INI", 
                   style: TextStyle(color: Colors.black)),
                 )

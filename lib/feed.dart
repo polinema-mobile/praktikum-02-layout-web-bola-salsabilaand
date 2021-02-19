@@ -8,7 +8,6 @@ class feed extends StatelessWidget {
       children: [
         Container(
           decoration: BoxDecoration(border: Border.all(color: Colors.black)),
-          margin: EdgeInsets.fromLTRB(5, 0, 20, 0),
           child: Row(
             children: [
               Container(
@@ -37,14 +36,13 @@ class feed extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.black)),
-                  alignment: Alignment.centerLeft,
-                
+                alignment: Alignment.centerLeft,
                 child: Text("Barcelona Feb 13, 2021", 
                   style: TextStyle(color: Colors.black)
-                  ),
+                ),
                   height: 30,
-                  width: 387,
-                  margin: EdgeInsets.fromLTRB(5, 0, 5, 5),
+                  width: 411,
+                  margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
               )
             ],
           ),
